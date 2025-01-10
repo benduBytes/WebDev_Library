@@ -1,0 +1,75 @@
+.profile-img {
+    height: 250px;
+    border-radius: 50%;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+ /* Style the logo */
+ #header img {
+    width: 60px; /* Increase width of the logo */
+    height: auto; /* Keep aspect ratio */
+  }
+
+  /* Adjust the font size of the text */
+  #header .fs-4 {
+    font-size: 1.5rem; /* Larger font size for 'Benedict.' */
+    color: white;
+  }
+  #hero p{
+    color: white;
+  }
+
+  
+  .nav-pills .nav-link.active {
+    background-color: black; /* Keep active link black */
+  }
+
+  .nav-pills .nav-link:hover {
+    background-color: #333; /* Darker shade on hover */
+    color: white; /* Keep text white on hover */
+  }
+
+/* Styling the cylinder container */
+.cylinder-container {
+  background-color: black; /* Cylinder background color */
+  border-radius: 50px; /* Make the edges curved */
+  height: 100px; /* Reduced height for the cylinder */
+  width: 40%; /* Adjust width to fit buttons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Center the container */
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow for effect */
+}
+
+/* Styling the buttons */
+.btn-light {
+  background-color: white; /* White button background */
+  border: none;
+  padding: 5px; /* Reduced padding for smaller size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px; /* Smaller button size */
+  height: 60px;
+  border-radius: 50%; /* Make buttons circular */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow to buttons */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Button hover effect */
+.btn-light:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+/* Icon inside the buttons */
+.icon-large {
+  width: 30px; /* Reduced icon size */
+  height: 30px;
+}
