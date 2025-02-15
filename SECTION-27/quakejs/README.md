@@ -17,7 +17,7 @@ make PLATFORM=js EMSCRIPTEN=<path_to_emscripten>
 Binaries will be placed in `ioq3/build/release-js-js/`.
 
 To note, if you're trying to run a dedicated server, the most up to date binaries are already included in the `build` directory of this repository.
-
+ 
 
 ## Running locally
 
